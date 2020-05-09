@@ -20,8 +20,5 @@ jobs:
     - name: Test
       run: npm test -- --configuration=ci
 
-    - name: Lint
-      run: npm run lint
-
     # - name: Upload coverage to Codecov
     #   run: 
