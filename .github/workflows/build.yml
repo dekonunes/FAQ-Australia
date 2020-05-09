@@ -2,7 +2,7 @@ name: CI
 on: [pull_request]
 
 jobs:
-  build:
+  Checks:
     runs-on: ubuntu-latest
 
     steps:
@@ -13,9 +13,27 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12
-
+    
+    - name: Cache node modules
+      uses: actions/cache@v1
+      env:
+        cache-name: cache-node-modules
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-build-${{ env.cache-name }}-
+          ${{ runner.os }}-build-
+          ${{ runner.os }}-
+    
     - name: Install dependencies
       run: npm i
+    
+    - name: Lint
+      run: npm run lint
 
+    - name: Test
+      run: npm test -- --configuration=ci
+    
     - name: Build
       run: npm run build -- --prod
