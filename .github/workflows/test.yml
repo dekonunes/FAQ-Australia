@@ -18,7 +18,7 @@ jobs:
       run: npm i
 
     - name: Test
-      run: npm test -- --configuration=ci
+      run: npm test
 
     # - name: Upload coverage to Codecov
     #   run: 
