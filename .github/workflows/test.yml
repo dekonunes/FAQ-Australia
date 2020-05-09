@@ -18,15 +18,7 @@ jobs:
       run: npm i
 
     - name: Test
-      run: npm test --code-coverage
-
-    - name: Lint
-      run: npm run lint
-
-    - name: Build
-      run: npm run build -- --prod
+      run: npm test -- --configuration=ci
 
     # - name: Upload coverage to Codecov
     #   run: 
-      
-    
