@@ -101,6 +101,13 @@
               "src/styles.sass"
             ],
             "scripts": []
+          },
+          "configurations": {
+            "ci": {
+              "watch": false,
+              "progress": false,
+              "browsers": "ChromeHeadlessCI"
+            }
           }
         },
         "lint": {
@@ -125,6 +132,10 @@
           "configurations": {
             "production": {
               "devServerTarget": "FAQ-Australia:serve:production"
+            },
+            "ci": {
+              "devServerTarget": "FAQ-Australia:serve:production",
+              "protractorConfig": "e2e/protractor-ci.conf.js"
             }
           }
         }
