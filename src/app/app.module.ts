@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
+import { AccordionModule } from './accordion/accordion.module';
+
 @NgModule({
 	declarations: [
 		AppComponent
@@ -15,6 +17,7 @@ import { environment } from '../environments/environment';
 		BrowserModule,
 		AppRoutingModule,
 		BrowserAnimationsModule,
+		AccordionModule,
 		ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
 	],
 	providers: [],
