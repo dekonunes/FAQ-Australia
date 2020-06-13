@@ -23,5 +23,5 @@ export const labour: Accordion = {
 			name: 'Eu',
 			link: 'http://globo.com'
 		}
-    }]
+	}]
 };
