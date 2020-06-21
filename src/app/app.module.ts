@@ -8,6 +8,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
 import { AccordionModule } from './accordion/accordion.module';
+import { NgxGoogleAnalyticsModule } from 'ngx-google-analytics';
 
 @NgModule({
 	declarations: [
@@ -18,7 +19,8 @@ import { AccordionModule } from './accordion/accordion.module';
 		AppRoutingModule,
 		BrowserAnimationsModule,
 		AccordionModule,
-		ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+		ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+		NgxGoogleAnalyticsModule.forRoot('UA-143816400-2')
 	],
 	providers: [],
 	bootstrap: [AppComponent]

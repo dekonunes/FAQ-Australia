@@ -6,7 +6,10 @@
       </mat-panel-title>
     </mat-expansion-panel-header>
     <mat-accordion>
-        <mat-expansion-panel class="panel" *ngFor="let content of accordion.contents">
+        <mat-expansion-panel class="panel"
+          *ngFor="let content of accordion.contents"
+          [expanded]="content.title.toLowerCase() === params.subitem"
+          (click)="gaTrack(accordion.title, content.title)">
             <mat-expansion-panel-header>
               <mat-panel-title>
                 {{content.title}}
