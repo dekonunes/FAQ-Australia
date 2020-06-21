@@ -1,22 +1,27 @@
-<mat-accordion>
-  <mat-expansion-panel *ngFor="let accordion of accordions">
+<mat-accordion *ngIf="this.params">
+  <mat-expansion-panel *ngFor="let accordion of accordions" [expanded]="accordion.title.toLowerCase() === params.item">
     <mat-expansion-panel-header>
       <mat-panel-title>
         {{accordion.title}}
       </mat-panel-title>
     </mat-expansion-panel-header>
     <mat-accordion>
-        <mat-expansion-panel class="panel" *ngFor="let content of accordion.contents">
+        <mat-expansion-panel class="panel"
+          *ngFor="let content of accordion.contents"
+          [expanded]="content.title.toLowerCase() === params.subitem">
             <mat-expansion-panel-header>
               <mat-panel-title>
                 {{content.title}}
               </mat-panel-title>
             </mat-expansion-panel-header>
             <div class="data">
-              <p [innerHTML]="content.data"></p>
+              <p [innerHTML]="content.data" id="{{content.title}}"></p>
               <cite class="flex-end" *ngIf="content.author">
                 <a href="{{content.author.link}}" target="_blank">{{content.author.name}}</a>
               </cite>
+              <div class="space-around" *ngIf="content.links">
+                <a *ngFor="let link of content.links" href="{{link.url}}" target="_blank">{{link.title}}</a>
+              </div>
             </div>
         </mat-expansion-panel>
     </mat-accordion>
