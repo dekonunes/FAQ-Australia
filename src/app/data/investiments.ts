@@ -24,7 +24,7 @@ export const investiments: Accordion = {
 	// 		name: 'Eu',
 	// 		link: 'http://globo.com'
 	// 	}
-	// }, 
+	// },
 	//  {
 	// 	title: 'CommSec Pocket',
 	// 	data: 'Trabalhar apenas 20 horas.',
