@@ -11,6 +11,7 @@ import { GoogleAnalyticsService } from 'ngx-google-analytics';
 })
 export class AccordionComponent {
 	accordions: Accordion[];
+	params: Params;
 
 	constructor(private svc: AccordionService, private route: ActivatedRoute, private gaService: GoogleAnalyticsService) {
 		svc.getData()
