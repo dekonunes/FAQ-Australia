@@ -9,10 +9,12 @@ import { environment } from '../environments/environment';
 
 import { AccordionModule } from './accordion/accordion.module';
 import { NgxGoogleAnalyticsModule } from 'ngx-google-analytics';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
 	declarations: [
-		AppComponent
+		AppComponent,
+		HeaderComponent
 	],
 	imports: [
 		BrowserModule,
