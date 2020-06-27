@@ -13,7 +13,7 @@ export class AccordionComponent {
 	accordions: Accordion[];
 	params: Params;
 
-	constructor(private svc: AccordionService, private route: ActivatedRoute) {
+	constructor(private svc: AccordionService, private route: ActivatedRoute, private gaService: GoogleAnalyticsService) {
 		svc.getData().subscribe((accordions) => {
 					this.accordions = accordions;
 					setTimeout(() => this.route.queryParams.subscribe((params: Params) => this.params = params));

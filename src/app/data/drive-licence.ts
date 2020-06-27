@@ -32,7 +32,13 @@ export const driveLicence: Accordion = {
 		}
 	}, {
 		title: 'Durante a prova',
-		data: '<li>Monitore sempre sua velocidade (atente-se as placas inclusive de School Zone, caso sua prova for em horário escolar). Melhor ir bem devagarzinho do que reprovar por excesso de velocidade.</li><br><li>DAR A PREFERÊNCIA: espere o tempo necessário mas não falhe por não dar a preferência! É foda pois a gente fica afobada, quer ir logo, mas se você falhar nisso reprova imediatamente.</li><br><li>A famosa QUEBRADA DE PESCOÇO: quando for trocar de faixa ou fazer curvas, obrigatoriamente de acordo com a lei australiana você tem que virar o pescoço pra ver o "ponto cedo". Literalmente quebre o pescoço pro lado! Mesmo que não ache necessário, na prova tem que fazer.</li><br><li>Sempre que frear pra fazer uma curva ou passar por um semáforo, olhe o espelho retrovisor. É importante pra gerenciar o timing caso um carro esteja atrás de você.</li><br><li>Mantenha sempre as duas mãos firmes no volante e gerencie a entrada corretamente nas faixas após fazer uma curva, pra evitar que o avaliador julgue que você não tem o controle do carro. Tem um item na folha de avaliação que chama "Performing an illegal act or manoeurve"',
+		data: `<ul>
+			<li>Monitore sempre sua velocidade (atente-se as placas inclusive de School Zone, caso sua prova for em horário escolar). Melhor ir bem devagarzinho do que reprovar por excesso de velocidade.</li><br>
+			<li>DAR A PREFERÊNCIA: espere o tempo necessário mas não falhe por não dar a preferência! É foda pois a gente fica afobada, quer ir logo, mas se você falhar nisso reprova imediatamente.</li><br>
+			<li>A famosa QUEBRADA DE PESCOÇO: quando for trocar de faixa ou fazer curvas, obrigatoriamente de acordo com a lei australiana você tem que virar o pescoço pra ver o "ponto cedo". Literalmente quebre o pescoço pro lado! Mesmo que não ache necessário, na prova tem que fazer.</li><br>
+			<li>Sempre que frear pra fazer uma curva ou passar por um semáforo, olhe o espelho retrovisor. É importante pra gerenciar o timing caso um carro esteja atrás de você.</li><br>
+			<li>Mantenha sempre as duas mãos firmes no volante e gerencie a entrada corretamente nas faixas após fazer uma curva, pra evitar que o avaliador julgue que você não tem o controle do carro. Tem um item na folha de avaliação que chama "Performing an illegal act or manoeurve"</li>
+		<ul>`,
 		author: {
 			name: 'Giovanna G Boghi',
 			link: 'https://www.facebook.com/giovanna.boghi'

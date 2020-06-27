@@ -26,13 +26,21 @@ body {
 
     padding: 20px;
 
-    background-color: #fbfbfbfb;
+    background-color: var(--color-background);
 	box-sizing: border-box;
 }
 
 ol,
 ul {
 	list-style: none;
+}
+
+li::before {
+    content: "\2022";
+    color: var(--color-bullets);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
 }
 
 a,
