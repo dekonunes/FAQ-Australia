@@ -13,12 +13,10 @@ export class AccordionComponent {
 	params: Params;
 
 	constructor(private svc: AccordionService, private route: ActivatedRoute) {
-		svc.getData()
-			.subscribe((accordions) =>
-				{
+		svc.getData().subscribe((accordions) => {
 					this.accordions = accordions;
 					setTimeout(() => this.route.queryParams.subscribe((params: Params) => this.params = params));
-					// ?item=vistos&subitem=bridge
+					// ?item=investimento&subitem=spaceship
 				});
 	}
 }
