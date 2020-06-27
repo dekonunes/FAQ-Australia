@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { AccordionService } from './accordion.service';
 import { Accordion } from './accordion';
 import { ActivatedRoute, Params } from '@angular/router';
+import { GoogleAnalyticsService } from 'ngx-google-analytics';
 
 @Component({
 	selector: 'app-accordion',
@@ -18,5 +19,9 @@ export class AccordionComponent {
 					setTimeout(() => this.route.queryParams.subscribe((params: Params) => this.params = params));
 					// ?item=investimento&subitem=spaceship
 				});
+	}
+
+	gaTrack(category: string, action: string, item?: string) {
+		this.gaService.event(category, action, item);
 	}
 }
