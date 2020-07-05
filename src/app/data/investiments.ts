@@ -10,8 +10,10 @@ export const investiments: Accordion = {
 			<li>O Index são as maiores empresas do mundo, grande maioria da carteira são de empresas dos EUA, uma carteira com menos variações que a Universe.</li><br>
 			<li>O Superannuation tem diferentes graus de risco como outros supers e também tem investimentos em outros ativos como dinheiro, dívidas do governo e dívidas de empresas. </li><br>
 			<li>As taxas somente começa a ser cobradas após você ter $5.000 dólares de saldo e são as seguintes: Universe é de 0.10%, Index, 0.05% e o Super tem é de $78 mais 0.65%, todas cobradas ao ano do saldo em conta. </li><br>
-			<li>Para se cadastrar você pode acessar clicando no link abaixo, no site você preenche o formulário e depois quando já estiver acessado sua conta você precisa fornecer alguns dados seus como o TFN e algum documento de identificação como passaporte ou carteira de motorista, assim que for aprovado você precisa autorizar que seja feito transferência da sua conta para o aplicativo, é só escolher o banco e informar o ID do seu banco e senha, fique tranquilo que isso é seguro e normal em todos os apps de investimentos.</li><br>
-		</ul><li>Após tudo pronto você pode colocar o código de referal <b>S81K8D3L4D</b> e <b>você</b> vai ganhar $5 dólares, isso mesmo <b>VOCÊ</b> ganha.</li>`,
+			<li>Para se cadastrar você pode acessar clicando no link abaixo, no site você preenche o formulário e depois quando já estiver acessado sua conta você precisa fornecer alguns dados seus como o TFN e algum documento de identificação como passaporte ou carteira de motorista,
+				assim que for aprovado você precisa autorizar que seja feito transferência da sua conta para o aplicativo, é só escolher o banco e informar o ID do seu banco e senha, fique tranquilo que isso é seguro e normal em todos os apps de investimentos.</li><br>
+			<li>Após tudo pronto você pode colocar o código de referal <b>S81K8D3L4D</b> e <b>você</b> vai ganhar $5 dólares, isso mesmo <b>VOCÊ</b> ganha.</li>
+		</ul>`,
 		links: [ {
 			title: 'Spaceship',
 			url: 'https://www.spaceshipinvest.com.au/'

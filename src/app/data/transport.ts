@@ -17,7 +17,7 @@ export const transport: Accordion = {
 		data: 'Em Sydney o sistema de transporte é o Opal card, que serve para todos os modos de transporte, ou o seu cartão de débito e crédito que possua tecnologia contactless payment'
 	}, {
 		title: 'Horários de pico',
-		data: 'Das 7: às 9:00, e das 16:00 às 18:30 o preço da passagem fica 50% maior'
+		data: 'Das 7:00 às 9:00, e das 16:00 às 18:30 o preço da passagem fica 50% maior'
 	}, {
 		title: 'Limites',
 		data: 'Depois de 8 viagens o preço da passagem cai pela metade. O valor maximo diario é de $16.10 o dia (fora Domingo) ou $50 a semana'
