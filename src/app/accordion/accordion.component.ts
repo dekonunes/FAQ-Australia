@@ -17,7 +17,7 @@ export class AccordionComponent {
 		svc.getData().subscribe((accordions) => {
 					this.accordions = accordions;
 					setTimeout(() => this.route.queryParams.subscribe((params: Params) => this.params = params));
-					// ?item=investimento&subitem=spaceship
+					// 	?item=investimento&subitem=spaceship
 				});
 	}
 

@@ -1,6 +1,6 @@
 import { Accordion } from '../accordion/accordion';
 
-export const investiments: Accordion = {
+export const investiment: Accordion = {
 	title: 'Investimento',
 	contents: [
 	{
@@ -21,26 +21,14 @@ export const investiments: Accordion = {
 	},
 	// {
 	// 	title: 'Raiz',
-	// 	data: 'Trabalhar apenas 20 horas.',
-	// 	author: {
-	// 		name: 'Eu',
-	// 		link: 'http://globo.com'
-	// 	}
+	// 	data: 'Trabalhar apenas 20 horas.'
 	// },
 	//  {
 	// 	title: 'CommSec Pocket',
-	// 	data: 'Trabalhar apenas 20 horas.',
-	// 	author: {
-	// 		name: 'Eu',
-	// 		link: 'http://globo.com'
-	// 	}
+	// 	data: 'Trabalhar apenas 20 horas.'
 	// }, {
 	// 	title: 'SelfWealth',
-	// 	data: 'Trabalhar apenas 20 horas.',
-	// 	author: {
-	// 		name: 'Eu',
-	// 		link: 'http://globo.com'
-	// 	}
+	// 	data: 'Trabalhar apenas 20 horas.'
 	// }
 ]
 };
