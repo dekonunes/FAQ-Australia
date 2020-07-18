@@ -37,7 +37,12 @@ export const supermarket: Accordion = {
 		}]
 	}, {
 		title: 'Bebida alcoólica',
-		data: ''
+		data: `As leis de venda de bebidas alcoólicas são super rigorosas. Somente alguns Aldi vendem bebidas alcoólicas junto do supermercado,
+			todos os outros tem uma loja próxima exclusiva para isso, qualquer funcionário que tenha contato com bebida alcoólica tem que ter feito o curso
+			de RSA (Serviço Responsável de Álcool) e as multas aplicadas caso ele quebre algumas das leis são MUITO caras, então pode ter certeza que eles
+			vão ser muito rigorosos na venda de bebidas cobrando um documento de identificação mesmo você tendo muitos cabelos brancos, e mesmo que algum
+			de seus amigos fiquem do lado de fora ele pode cobrar o documento desta e de todas as pessoas que estão com você. <br><br>
+			Os impostos sobre bebida são um dos maiores do mundo, mas você ainda encontra alguns vinhos bons por um preço acessível.`
 	}, {
 		title: 'Metade do preço',
 		data: 'Essencial para encontrar promoções no Coles, Wollies Liquorland and BWS, o catálogo é atualizado toda quarta-feira pela manhã',
