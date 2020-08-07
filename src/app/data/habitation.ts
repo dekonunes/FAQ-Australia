@@ -15,7 +15,8 @@ export const habitation: Accordion = {
 	}, {
 		title: 'Inspeção',
 		data: `Chamado de "Inspections" é quando você visita o local para vêr o estado, limpeza e talvez conhecer o pessoal que vai morar com você,
-			é de <b>EXTREMA IMPORTANCIA</b> você ir no local e ver antes de fechar qualquer coisa, as fotos postadas muitas das vezes são muito diferentes do real estado do local`,
+			é de <b>EXTREMA IMPORTANCIA</b> você ir no local e ver antes de fechar qualquer coisa, as fotos postadas muitas das vezes são muito diferentes do real estado do local.
+			Quando se mudar para o local tire foto de tudo para ficar documentado e não ter problemas quando for sair`,
 	}, {
 		title: 'Bond',
 		data: `No Brasil conhecido como Calção, é super comum o locatario cobrar algumas semanas em reserva para caso tenha danos no local, comum são entre 2 ou 4 semanas e esse valor

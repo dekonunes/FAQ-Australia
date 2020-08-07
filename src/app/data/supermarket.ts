@@ -55,7 +55,7 @@ export const supermarket: Accordion = {
 		}]
 	}, {
 		title: 'Comparador de preço',
-		data: 'A diferenca de preço entre os supermercados pode ser grande, utilizar um app para comprar antes de sair de casa pode te economizar bons dolares',
+		data: 'A diferenca de preço entre os supermercados pode ser grande, utilizar um app para comprar antes de sair de casa pode te economizar bons dólares',
 		links: [{
 			title: 'Android',
 			url: 'https://play.google.com/store/apps/details?id=com.arimac.frugl'

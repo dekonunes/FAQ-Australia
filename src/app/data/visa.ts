@@ -17,7 +17,7 @@ export const visa: Accordion = {
 			Outra informação importante, quando você renova o visto de estudante só pode trabalhar quando se estiver tendo aulas.`,
 	}, {
 		title: 'Graduate Visa',
-		data: `485 - Você consegue este visto ao concluir um curso na Australia com duração maior que 2 a 4 anos (depende do grau do ensino) e que a profissão esteja em algumas das lista de demanda de emprego.
+		data: `485 - Você consegue este visto ao concluir um curso na Austrália com duração maior que 2 a 4 anos (depende do grau do ensino) e que a profissão esteja em algumas das lista de demanda de emprego.
 			Com ele você tem direito de trabalhar por tempo integral, mas ele só pode ser aplicado uma vez na vida.`,
 	}, {
 		title: 'Regionais',
