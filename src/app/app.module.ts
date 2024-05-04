@@ -10,23 +10,20 @@ import { environment } from '../environments/environment';
 import { AccordionModule } from './accordion/accordion.module';
 import { NgxGoogleAnalyticsModule } from 'ngx-google-analytics';
 import { HeaderComponent } from './header/header.component';
-import { BrainshipComponent } from './brainship/brainship.component';
 
 @NgModule({
-	declarations: [
-		AppComponent,
-		HeaderComponent,
-		BrainshipComponent
-	],
-	imports: [
-		BrowserModule,
-		AppRoutingModule,
-		BrowserAnimationsModule,
-		AccordionModule,
-		ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
-		NgxGoogleAnalyticsModule.forRoot('UA-143816400-2')
-	],
-	providers: [],
-	bootstrap: [AppComponent]
+  declarations: [AppComponent, HeaderComponent],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    AccordionModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+    }),
+    NgxGoogleAnalyticsModule.forRoot('UA-143816400-2'),
+  ],
+  providers: [],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
